@@ -22,7 +22,7 @@ const Projects = () => {
             <div className="tile">
             <div className="tileContent">
                 <h2>Shader Project</h2>
-                
+                <h3>Coming Soon...</h3>
             </div>
             </div>
 
