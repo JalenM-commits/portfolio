@@ -7,7 +7,7 @@ portfolio_jm
 */
 
 .navbar {
-    background-color: rgb(30, 30, 30);
+    background-color: black;
     height: 5rem;
     width: 100vw;
     max-width: 75rem;
@@ -35,7 +35,6 @@ portfolio_jm
 .desktopMenuListItem:hover{
     color: teal;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid teal;
 }
 
 .desktopMenuBtn {
@@ -44,7 +43,7 @@ portfolio_jm
     padding: 0.75rem 2rem;
     border: none;
     border-radius: 2rem;
-    display: flex;
+    display: inline-block;
 }
 
 .desktopMenuBtn:hover {

@@ -22,18 +22,15 @@ const Navbar = () => {
             <img src={logo} alt='Logo' className='logo' />
             </Link>
             <div className="desktopMenu">
-                <Link activeClass='active' to='home' className="desktopMenuListItem">Home</Link>
-                <Link activeClass='active' to='aboutme' className="desktopMenuListItem">About Me</Link>
-                <Link activeClass='active' to='projects' className="desktopMenuListItem">Projects</Link>
-                <Link activeClass='active' to='services' className="desktopMenuListItem">Services</Link>
+                <Link activeClass='active' to='home' className="desktopMenuListItem"><button className='desktopMenuBtn'>Home</button></Link>
+                <Link activeClass='active' to='aboutme' className="desktopMenuListItem"><button className='desktopMenuBtn'>About Me</button></Link>
+                <Link activeClass='active' to='projects' className="desktopMenuListItem"><button className='desktopMenuBtn'>Projects</button></Link>
+                <Link activeClass='active' to='services' className="desktopMenuListItem"><button className='desktopMenuBtn'>Services</button></Link>
+                <Link activeClass='active' to="contact" className="desktopMenuListItem"><button className='desktopMenuBtn'>
+                    <img src={mailbox} alt="mailbox" className='desktopMenuImg'/>Contact Me
+                    </button>
+                </Link>
             </div>
-
-            <Link to="/contact">
-            <button className="desktopMenuBtn">
-                <img src={mailbox} alt="mailbox" className='desktopMenuImg'/>Contact Me
-            </button>
-            </Link>
-
 
                 <img src={menu} alt='Menu' className='mobMenu' onClick={()=>setShowMenu(!showMenu)} />
             <div className="navMenu" style={{display: showMenu? 'flex':'none'}}>
