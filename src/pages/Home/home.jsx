@@ -1,3 +1,11 @@
+/*
+home.jsx
+Jalen Mendonca - 301098614
+2024
+
+portfolio_jm
+*/
+
 import React from "react";
 import './home.css';
 import { Link } from "react-router-dom";

@@ -1,3 +1,11 @@
+/*
+footer.jsx
+Jalen Mendonca - 301098614
+2024
+
+portfolio_jm
+*/
+
 import React from 'react'
 import './footer.css'
 

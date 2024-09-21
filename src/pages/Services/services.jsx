@@ -1,3 +1,11 @@
+/*
+services.jsx
+Jalen Mendonca - 301098614
+2024
+
+portfolio_jm
+*/
+
 import React from "react";
 import './services.css';
 import GraphicDesign from '../../assets/graphicdesign.jpg'

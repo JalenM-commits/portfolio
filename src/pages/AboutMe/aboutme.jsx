@@ -1,3 +1,11 @@
+/*
+aboutme.jsx
+Jalen Mendonca - 301098614
+2024
+
+portfolio_jm
+*/
+
 import React from "react";
 import './aboutme.css'
 import portrait1 from '../../assets/portrait.png'
