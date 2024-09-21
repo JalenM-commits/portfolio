@@ -1,0 +1,104 @@
+#services {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;   
+}
+
+.servicesTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.servicesDesc {
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 50rem;
+    padding: 0 2rem;
+}
+
+.servicesBars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+
+}
+
+.servicesBar {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background-color: rgb(50, 50, 50);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.servicesBar:hover {
+    transform: scale(1.05);
+}
+
+.servicesBarImg {
+    object-fit: cover;
+    height: 6rem;
+    width:  6rem;
+    margin-right: 2rem;
+}
+
+.servicesBarText>p {
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.skateboardVideo{
+    height: 65vh;
+    width: auto;
+}
+
+.cyborg1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.vidCaption{
+    font-style: italic;
+    text-align: center;
+}
+
+.imgCaption{
+    font-style: italic;
+    text-align: center;
+}
+
+@media screen and (max-width:720px) {
+    .servicesBarText{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .servicesBarText{
+        font-size: 3vw;
+    }
+    .servicesBarImg {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .servicesBarText>h2 {
+        font-size: 5vw;
+    }
+    .skateboardVideo{
+        width: 20rem;
+    }
+
+}
