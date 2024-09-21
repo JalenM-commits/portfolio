@@ -8,7 +8,7 @@ portfolio_jm
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import './app.css'
+import './App.css'
 
 import Navbar from "./components/NavBar/navbar";
 import Home from "./pages/Home/home";
