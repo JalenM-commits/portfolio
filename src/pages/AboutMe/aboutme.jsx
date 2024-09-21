@@ -13,8 +13,9 @@ import { Link } from 'react-router-dom';
 
 const AboutMe = () => {
     return (
-        <section id="aboutMe">
+        <section id="aboutMePage">
              <img src={portrait1} alt="JM" className="portrait" />
+            
             <div className="aboutContent">
                 <span className="hello">Hello, </span>
                 <span className="aboutText">it's <span className="aboutName"> Jalen Mendonca.</span> <br>

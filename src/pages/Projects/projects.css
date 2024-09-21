@@ -43,13 +43,16 @@ portfolio_jm
 }
 
 .projectsImg {
-    object-fit: cover;
+    object-fit: scale-down;
     height: 20rem;
     margin: 0.5rem;
 }
 
 .tiles-container {
+    text-align: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -82,9 +85,25 @@ portfolio_jm
     background-color: teal;
 }
 
-@media screen and (max-width:585px) {
-    .projectsImg{
-        height: 48vw;
+@media screen and (max-width:600px) {
+
+    .tiles-container{
+       max-width: 20rem;
     }
     
+    .projectsTitle{
+        max-width: 20rem;
+    }
+    .projectsImg{
+        max-width: 20rem;
+    }
+    .videoPara {
+        max-width: 20rem;
+    }
+
+    .vidEmbed{
+        width: auto;
+        height: auto;
+    }
+
 }

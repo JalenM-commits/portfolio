@@ -93,7 +93,7 @@ portfolio_jm
 @media screen and (max-width:600px) {
     .mobMenu{
         display: flex;
-        margin-right: 5rem;
+        margin-right: 1rem;
         width: 5rem;
         height: 5rem;
     }
