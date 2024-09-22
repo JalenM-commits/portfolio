@@ -22,7 +22,9 @@ const AboutMe = () => {
                 </br> 
                 I am a <br></br>
                 Programmer/Designer. </span>
-                <p className="aboutPara">I am a Canadian born web designer with experience creating stunning graphics. I have been a gamer for as long as I can remember, therefore I have always been interested in information technology and it's creative outlets. </p>
+                <p className="aboutPara">I am a Canadian web designer with experience creating stunning graphics. I have been a gamer for as long as I can remember, therefore I have always been interested in information technology and it's creative outlets. 
+                    I have experience coding in C#, Java, and Python. I am well versed in several computer applications for graphic design, video editing, music production, and image generation.
+                </p>
                 <Link to='/projects'><button className="btn" >Projects</button></Link>
             </div>
         </section>
