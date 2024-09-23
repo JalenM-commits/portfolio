@@ -18,7 +18,7 @@ const Services = () => {
     return (
         <section id='services'>
             <span className="servicesTitle">Services</span>
-            <span className="servicesDesc">I am a skilled web designer with experience in creating visually appealing and user-friendly websites. I am proficient in HTML, CSS, Javascript, and Python as well as open source design softwares for graphic and video processing. <br>
+            <span className="servicesDesc">I am a skilled web designer with experience in creating visually appealing and user-friendly websites. I am proficient in HTML, CSS, and Javascript, as well as open source design softwares for graphic and video processing. <br>
             </br>
             
             </span>
